@@ -3,11 +3,11 @@ require('dotenv').config() // for using enviroment configuration
 const express = require("express")
 const app = express()
 
-const mongoose = require("mongoose")
-mongoose.connect("mongodb+srv://xiaohu:1228@cluster0.hhkzd3t.mongodb.net/?retryWrites=true&w=majority")
+// const mongoose = require("mongoose")
+// mongoose.connect("mongodb+srv://xiaohu:1228@cluster0.hhkzd3t.mongodb.net/?retryWrites=true&w=majority")
 
-// Allow the server accpet json
-app.use(express.json())
+// // Allow the server accpet json
+// app.use(express.json())
 
 const cors = require('cors')
 app.use(cors())
