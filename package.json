@@ -2,9 +2,10 @@
   "name": "coderbaseserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "startServer": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
